@@ -1,3 +1,28 @@
-.DS_Store
-npm-debug.log
+# Logs
+logs
+*.log
+
+# node_modules
 node_modules
+
+# Distribution directories
+dist
+build
+
+# Atom
+.atom
+.packages
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+#.git
+#.gitignore
