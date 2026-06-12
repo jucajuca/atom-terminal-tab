@@ -1,11 +1,12 @@
 {
   "atom-workspace": {
-    "cmd-shift-t": "terminal:open"
+    "cmd-shift-t": "terminal:open",
+    "ctrl-shift-`": "terminal:open"
   },
   "terminal-view": {
-    "cmd-c": "terminal:copy",
-    "cmd-v": "terminal:paste",
-    "cmd-k": "terminal:clear",
+    "ctrl-shift-c": "terminal:copy",
+    "ctrl-shift-v": "terminal:paste",
+    "ctrl-shift-k": "terminal:clear",
     "cmd-w": "terminal:close"
   }
 }

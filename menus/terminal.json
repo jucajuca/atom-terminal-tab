@@ -9,6 +9,29 @@
             {
               "label": "Open Terminal",
               "command": "terminal:open"
+            },
+            {
+              "label": "Copy",
+              "command": "terminal:copy",
+              "available": "terminal-view"
+            },
+            {
+              "label": "Paste",
+              "command": "terminal:paste",
+              "available": "terminal-view"
+            },
+            {
+              "label": "Clear",
+              "command": "terminal:clear",
+              "available": "terminal-view"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "label": "Close",
+              "command": "terminal:close",
+              "available": "terminal-view"
             }
           ]
         }
