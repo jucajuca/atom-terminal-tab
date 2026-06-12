@@ -1,6 +1,6 @@
 {
   "name": "terminal-tab",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A simple terminal for panes and docks.",
   "author": {
     "name": "Justin Mecham",
