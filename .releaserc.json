@@ -5,7 +5,7 @@
     [
       "@semantic-release/github",
       {
-        "assets": ["dist/**"],
+        "assets": ["dist/**", "!dist/*.json"],
         "releasedLabels": ["Status: Released"]
       }
     ]
