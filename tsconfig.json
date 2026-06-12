@@ -16,7 +16,8 @@
   },
   "include": [
     "lib/**/*",
-    "spec/**/*"
+    "spec/**/*",
+    "src/**/*"
   ],
   "exclude": [
     "node_modules",

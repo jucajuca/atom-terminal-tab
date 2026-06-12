@@ -30,7 +30,7 @@ describe('TerminalTab', () => {
 
       waitsForPromise(() => {
         return terminalPromise;
-      })
+      });
 
       runs(() => {
         // Ensure that the terminal view element is present in the workspace.
