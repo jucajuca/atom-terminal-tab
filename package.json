@@ -1,6 +1,6 @@
 {
   "name": "terminal-tab",
-  "version": "0.6.1",
+  "version": "1.0.0",
   "description": "A simple terminal for panes and docks.",
   "author": {
     "name": "Justin Mecham",
@@ -9,9 +9,12 @@
   },
   "private": true,
   "scripts": {
-    "test": "echo \"Tests passed (typecheck skipped due to JSX known issues)\" || exit 0",
-    "lint": "echo \"Linting skipped - review code manually\" || exit 0",
-    "typecheck": "echo \"TypeScript typecheck skipped - JSX not fully supported in TS yet\" || exit 0"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint lib/*.tsx spec/*.tsx",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
   },
   "keywords": [
     "command",
@@ -47,13 +50,25 @@
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/github": "^12.0.8",
     "@semantic-release/release-notes-generator": "^14.1.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
     "@types/jasmine": "^5.1.15",
+    "@types/jest": "^30.0.0",
     "@types/node": "^25.9.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-test-renderer": "^19.1.0",
     "@typescript-eslint/eslint-plugin": "^8.61.0",
     "@typescript-eslint/parser": "^8.61.0",
     "eslint": "^10.4.1",
     "globals": "^17.6.0",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "semantic-release": "^24.2.9",
+    "ts-jest": "^29.4.11",
     "typescript": "^6.0.3"
   },
   "deserializers": {

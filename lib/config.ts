@@ -1,5 +1,3 @@
-/** @babel */
-
 export default {
 
   defaultLocation: {
