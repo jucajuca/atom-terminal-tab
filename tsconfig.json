@@ -12,6 +12,8 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
+    "jsx": "react",
+    "jsxFactory": "etch.dom.createElement",
     "types": ["node", "jasmine"]
   },
   "include": [
