@@ -35,8 +35,8 @@
     "etch": "^0.14.0",
     "node-pty": "^1.1.0",
     "rgb-hex": "^3.0.0",
-    "xterm": "^5.5.0",
-    "xterm-addon-fit": "^5.1.0"
+    "xterm": "^5.3.0",
+    "xterm-addon-fit": "^0.8.0"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^13.0.1",
